@@ -90,7 +90,7 @@ const technologies = [{
 const education = [{
         title: "Matriculation",
         company_name: "Minhaj Model High School (MMHS) Liaqatabad, Bhimber",
-        icon: minhaj,
+        icon: starbucks,
         iconBg: "#383E56",
         date: "2020-2022",
         points: [
@@ -100,7 +100,7 @@ const education = [{
     {
         title: "FSc (Pre Engineering)",
         company_name: "Read Foundation College, Bhimber AJK",
-        icon: read,
+        icon: tesla,
         iconBg: "#E6DEDD",
         date: "2022-2024",
         points: [
@@ -110,7 +110,7 @@ const education = [{
     {
         title: "Graduation (BS Software Engineering)",
         company_name: "Mirpur University of Science and Technology (MUST), Mirpur AJK",
-        icon: must,
+        icon: shopify,
         iconBg: "#383E56",
         date: "2024-2028",
         points: [
