@@ -7,6 +7,8 @@ import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 
+import { github } from "../assets";
+
 const Contact = () => {
   const formRef = useRef();
   const [form, setForm] = useState({
@@ -37,9 +39,9 @@ const Contact = () => {
         import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
         {
           from_name: form.name,
-          to_name: "JavaScript Mastery",
+          to_name: "Rizwan Ahmed",
           from_email: form.email,
-          to_email: "sujata@jsmastery.pro",
+          to_email: "nawzirahmed4@gmail.com",
           message: form.message,
         },
         import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
@@ -121,6 +123,28 @@ const Contact = () => {
             {loading ? "Sending..." : "Send"}
           </button>
         </form>
+
+        <motion.div
+          variants={slideIn("left", "tween", 0.2, 1)}
+          className='mt-12 flex flex-col gap-4'
+        >
+          <h3 className='text-white text-[20px] font-bold'>Contact Information</h3>
+          <p className='text-secondary text-[16px]'>Email: nawzirahmed4@gmail.com</p>
+          <p className='text-secondary text-[16px]'>Mobile: 00923701176322</p>
+          <p className='text-secondary text-[16px]'>WhatsApp: 00923701176322</p>
+        </motion.div>
+
+        <motion.div
+          variants={slideIn("left", "tween", 0.2, 1)}
+          className='mt-8 flex gap-4'
+        >
+          <a href='https://www.linkedin.com/in/rizwan-ahmed-a42b9a295' target='_blank' rel='noopener noreferrer' className='text-[#915EFF] hover:underline'>
+            LinkedIn
+          </a>
+          <a href='https://github.com/engr-riz348' target='_blank' rel='noopener noreferrer'>
+            <img src={github} alt='GitHub' className='w-10 h-10 object-contain' />
+          </a>
+        </motion.div>
       </motion.div>
 
       <motion.div
