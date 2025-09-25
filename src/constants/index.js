@@ -90,7 +90,7 @@ const technologies = [{
 const education = [{
         title: "Matriculation",
         company_name: "Minhaj Model High School (MMHS) Liaqatabad, Bhimber",
-        icon: starbucks,
+        icon: minhaj,
         iconBg: "#383E56",
         date: "2020-2022",
         points: [
@@ -100,7 +100,7 @@ const education = [{
     {
         title: "FSc (Pre Engineering)",
         company_name: "Read Foundation College, Bhimber AJK",
-        icon: tesla,
+        icon: read,
         iconBg: "#E6DEDD",
         date: "2022-2024",
         points: [
@@ -110,11 +110,11 @@ const education = [{
     {
         title: "Graduation (BS Software Engineering)",
         company_name: "Mirpur University of Science and Technology (MUST), Mirpur AJK",
-        icon: shopify,
+        icon: must,
         iconBg: "#383E56",
         date: "2024-2028",
         points: [
-            "CGPA: 3.3",
+            "CGPA: 3.3/4.0",
         ],
     },
 ];
@@ -124,7 +124,7 @@ const certifications = [{
         company_name: "Punjab Skill Development Initiative",
         icon: meta,
         iconBg: "#E6DEDD",
-        date: "2024",
+        date: "2025",
         link: "https://punjab.psdi.pk/certificate/d13deca7d4",
         points: [
             "Completed course on WiFi Security fundamentals and best practices.",
@@ -135,7 +135,7 @@ const certifications = [{
         company_name: "Punjab Skill Development Initiative",
         icon: starbucks,
         iconBg: "#383E56",
-        date: "2024",
+        date: "2025",
         link: "https://punjab.psdi.pk/certificate/731a8132a1",
         points: [
             "Learned WordPress development, theme customization, and plugin integration.",
@@ -143,28 +143,7 @@ const certifications = [{
     },
 ];
 
-const testimonials = [{
-        testimonial: "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-        name: "Sara Lee",
-        designation: "CFO",
-        company: "Acme Co",
-        image: "https://randomuser.me/api/portraits/women/4.jpg",
-    },
-    {
-        testimonial: "I've never met a web developer who truly cares about their clients' success like Rick does.",
-        name: "Chris Brown",
-        designation: "COO",
-        company: "DEF Corp",
-        image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-        testimonial: "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-        name: "Lisa Wang",
-        designation: "CTO",
-        company: "456 Enterprises",
-        image: "https://randomuser.me/api/portraits/women/6.jpg",
-    },
-];
+const testimonials = [];
 
 const projects = [{
         name: "Car Rent",
