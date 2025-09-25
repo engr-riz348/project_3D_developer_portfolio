@@ -78,22 +78,6 @@ const technologies = [{
         icon: nodejs,
     },
     {
-        name: "C#",
-        icon: null,
-    },
-    {
-        name: "Python",
-        icon: null,
-    },
-    {
-        name: "Linux (Kali)",
-        icon: null,
-    },
-    {
-        name: "Pen Testing",
-        icon: null,
-    },
-    {
         name: "git",
         icon: git,
     },
@@ -141,6 +125,7 @@ const certifications = [{
         icon: meta,
         iconBg: "#E6DEDD",
         date: "2024",
+        link: "https://punjab.psdi.pk/certificate/d13deca7d4",
         points: [
             "Completed course on WiFi Security fundamentals and best practices.",
         ],
@@ -151,6 +136,7 @@ const certifications = [{
         icon: starbucks,
         iconBg: "#383E56",
         date: "2024",
+        link: "https://punjab.psdi.pk/certificate/731a8132a1",
         points: [
             "Learned WordPress development, theme customization, and plugin integration.",
         ],
