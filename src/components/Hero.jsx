@@ -7,20 +7,19 @@ const Hero = () => {
   return (
     <section className={`relative w-full h-screen mx-auto`}>
       <div
-        className={`absolute inset-0 top-[120px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
+        className={`absolute inset-0 top-[120px] z-10 max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
       >
         <div className='flex flex-col justify-center items-center mt-5'>
           <div className='w-5 h-5 rounded-full bg-[#915EFF]' />
           <div className='w-1 sm:h-80 h-40 violet-gradient' />
         </div>
 
-        <div>
+        <div className="w-full max-w-2xl">
           <h1 className={`${styles.heroHeadText} text-white`}>
             Hi, I'm <span className='text-[#915EFF]'>Rizwan Ahmed</span>
           </h1>
-          <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I am a Software Engineering student who builds, designs, and secures web applications. <br className='sm:block hidden' />
-            With a strong command of JavaScript, React, Node.js, and a foundation in C# and Python
+          <p className={`${styles.heroSubText} mt-2 text-white-100 leading-relaxed`}>
+            Software Engineering student who builds, designs, and secures web applications.
           </p>
         </div>
       </div>
