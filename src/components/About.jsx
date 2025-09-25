@@ -7,7 +7,7 @@ import { services } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant, zoomIn } from "../utils/motion";
 
-import { ra } from "../assets";
+
 
 const ServiceCard = ({ index, title, icon }) => (
   <Tilt className='xs:w-[250px] w-full'>
@@ -43,17 +43,6 @@ const About = () => {
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>Introduction</p>
         <h2 className={styles.sectionHeadText}>Overview.</h2>
-      </motion.div>
-
-      <motion.div
-        variants={zoomIn(0.1, 0.5)}
-        className="mt-4 flex justify-center"
-      >
-        <img
-          src={ra}
-          alt="Profile Picture"
-          className="w-32 h-32 rounded-full object-cover shadow-lg hover:scale-105 transition-transform duration-300"
-        />
       </motion.div>
 
       <motion.p
