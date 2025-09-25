@@ -3,6 +3,7 @@ import Hero from "./Hero";
 import Navbar from "./Navbar";
 import About from "./About";
 import Tech from "./Tech";
+import Skills from "./Skills";
 import Education from "./Education";
 import Certifications from "./Certifications";
 import Works from "./Works";
@@ -16,6 +17,7 @@ export {
     Navbar,
     About,
     Tech,
+    Skills,
     Education,
     Certifications,
     Works,
