@@ -27,3 +27,56 @@ This Markdown file summarizes all modifications made to personalize the portfoli
   - Matriculation (Grade: A+, 2020-2022, Minhaj Model High School (MMHS) Liaqatabad, Bhimber; icon: starbucks placeholder; iconBg: "#383E56")
   - FSc (Pre Engineering) (Grade: A, 2022-2024, Read Foundation College, Bhimber AJK; icon: tesla placeholder; iconBg: "#E6DEDD")
   - Graduation (BS Software Engineering) (CGPA: 3.3/4.0, 2024-2028, Mirpur University of Science and Technology (MUST), Mirpur AJK; icon: shopify placeholder; iconBg: "#383E56")
+- **Icons**: Placeholders used; download logos from provided links and save as PNG in src/assets (e.g., minhaj.png, read.png, must.png), then import in constants/index.js and update array.
+  - Minhaj: https://www.pngegg.com/en/search?q=Minhaj-ul-Quran
+  - Read Foundation: https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=100064234530229
+  - MUST: https://must.edu.pk/staff-68/
+- **Section Titles**: "My Academic Journey" (subtext), "Education." (head).
+- **Location in App.jsx**: After Tech section (replaces original Experience).
+
+## Certifications Section (src/components/Certifications.jsx - new file)
+- **Added**: New vertical timeline section similar to Education.
+- **Details from src/constants/index.js**:
+  - WiFi Security (2025, Punjab Skill Development Initiative; points: "Completed course on WiFi Security fundamentals and best practices."; icon: meta; iconBg: "#E6DEDD"; clickable link: https://punjab.psdi.pk/certificate/d13deca7d4)
+  - WordPress Web Development (2025, Punjab Skill Development Initiative; points: "Learned WordPress development, theme customization, and plugin integration."; icon: starbucks; iconBg: "#383E56"; clickable link: https://punjab.psdi.pk/certificate/731a8132a1)
+- **Clickability**: Icons wrapped in <a> tags with target="_blank" rel="noopener noreferrer" and hover opacity transition.
+- **Section Titles**: "My Certifications" (subtext), "Certifications." (head).
+- **Location in App.jsx**: After Education section.
+
+## Works Section (src/components/Works.jsx)
+- **Unchanged**: Retains placeholder projects (Car Rent, Job IT, Trip Guide) from src/constants/index.js. Can be updated with real projects if provided.
+- **Location in App.jsx**: After Certifications.
+
+## Feedbacks Section (src/components/Feedbacks.jsx)
+- **Updated**: Testimonials array in src/constants/index.js emptied ([]), so section shows no content (placeholders removed).
+- **Location in App.jsx**: After Works.
+
+## Contact Section (src/components/Contact.jsx)
+- **Updated Details**:
+  - Email: nawzirahmed4@gmail.com
+  - Mobile/WhatsApp: 00923701176322
+  - LinkedIn: https://www.linkedin.com/in/rizwan-ahmed-a42b9a295
+  - GitHub: https://github.com/engr-riz348
+- **EmailJS Configuration**: Updated to_name/to_email to "Rizwan Ahmed" / nawzirahmed4@gmail.com.
+- **Location in App.jsx**: Last section before StarsCanvas.
+
+## App.jsx Structure Updates
+- Imports: Updated to Education (from Experience), added Certifications.
+- Section Order: Navbar > Hero > About > Education > Tech > Works > Feedbacks > Certifications > Contact > StarsCanvas (Feedbacks moved after Works for logical flow).
+
+## Constants (src/constants/index.js)
+- All arrays updated as above (services, technologies, education, certifications, testimonials).
+- NavLinks unchanged (About, Work, Contact).
+
+## Assets and Fixes (src/assets/index.js, etc.)
+- No new assets added (ra.png removed to fix import error).
+- Dependencies: npm install --legacy-peer-deps to resolve react-tilt@0.1.4 conflict with React 18.
+- Errors Fixed: react-tilt deprecation (findDOMNode warnings), invalid imports, THREE.js NaN radius (non-critical, model positioning).
+- Build: Successful (vite build generates dist/ ~5.5MB gzipped).
+
+## Testing and Verification
+- Dev Server: npm run dev launches at http://localhost:5175.
+- Verified: Rendering, navigation, responsiveness, 3D canvases (Computers/Earth/Stars), service hovers, certification links (manual click), no console errors/warnings.
+- Pending: Contact form submission (requires EmailJS service/public keys), real projects/testimonials, education logos download/import.
+
+For further customizations, provide additional details or files.
