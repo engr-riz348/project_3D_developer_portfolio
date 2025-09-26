@@ -29,6 +29,11 @@ import minhaj from "../assets/company/Minhaj model.jpg";
 import read from "../assets/company/Read.png";
 import must from "../assets/company/must.png";
 
+import cybersecurity from "../assets/tech/cybersecurity.png";
+import wifi_security from "../assets/tech/wifi_security.png";
+import ethical_hacking from "../assets/tech/ethical_hacking.png";
+import wordpress from "../assets/tech/wordpress.png";
+
 export const navLinks = [{
         id: "about",
         title: "About",
@@ -134,10 +139,10 @@ const education = [{
 const certifications = [{
         title: "WiFi Security",
         company_name: "Punjab Skill Development Initiative",
-        icon: meta,
+        icon: wifi_security,
         iconBg: "#E6DEDD",
         date: "2025",
-        link: "https://punjab.psdi.pk/certificate/d13deca7d4",
+        link: "/certificate/wifi_security.png",
         points: [
             "Completed course on WiFi Security fundamentals and best practices.",
         ],
@@ -145,12 +150,34 @@ const certifications = [{
     {
         title: "WordPress Web Development",
         company_name: "Punjab Skill Development Initiative",
-        icon: starbucks,
+        icon: wordpress,
         iconBg: "#383E56",
         date: "2025",
-        link: "https://punjab.psdi.pk/certificate/731a8132a1",
+        link: "/certificate/wordpress.png",
         points: [
             "Learned WordPress development, theme customization, and plugin integration.",
+        ],
+    },
+    {
+        title: "Professional Freelancing",
+        company_name: "Professional Freelancing Training Program (PFTFP)",
+        icon: cybersecurity,
+        iconBg: "#E6DEDD",
+        date: "2024",
+        link: "/certificate/professional_freelancing.png",
+        points: [
+            "Completed 3-month online course on Professional Freelancing skills and knowledge required for freelancing.",
+        ],
+    },
+    {
+        title: "Ethical Hacking",
+        company_name: "Professional Freelancing Training Program (PFTFP)",
+        icon: ethical_hacking,
+        iconBg: "#383E56",
+        date: "2025",
+        link: "/certificate/ethical_hacking.png",
+        points: [
+            "Completed 3-month online course on Ethical Hacking skills and knowledge required for cybersecurity freelancing.",
         ],
     },
 ];
