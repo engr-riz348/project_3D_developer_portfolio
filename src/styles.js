@@ -3,7 +3,7 @@ const styles = {
     paddingY: "sm:py-16 py-6",
     padding: "sm:px-16 px-6 sm:py-16 py-10",
 
-    heroHeadText: "font-black text-white lg:text-[74px] sm:text-[54px] xs:text-[44px] text-[34px] lg:leading-[92px] mt-2",
+    heroHeadText: "font-black text-white text-[3rem] leading-[4rem] mt-2",
     heroSubText: "text-[#dfd9ff] font-medium lg:text-[30px] sm:text-[26px] xs:text-[20px] text-[16px] lg:leading-[40px]",
 
     sectionHeadText: "text-white font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px]",

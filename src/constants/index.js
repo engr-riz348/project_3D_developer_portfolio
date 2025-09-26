@@ -25,6 +25,10 @@ import {
     threejs,
 } from "../assets";
 
+import minhaj from "../assets/company/Minhaj model.jpg";
+import read from "../assets/company/Read.png";
+import must from "../assets/company/must.png";
+
 export const navLinks = [{
         id: "about",
         title: "About",
@@ -98,7 +102,7 @@ const technologies = [{
 const education = [{
         title: "Matriculation",
         company_name: "Minhaj Model High School (MMHS) Liaqatabad, Bhimber",
-        icon: starbucks,
+        icon: minhaj,
         iconBg: "#383E56",
         date: "2020-2022",
         points: [
@@ -108,7 +112,7 @@ const education = [{
     {
         title: "FSc (Pre Engineering)",
         company_name: "Read Foundation College, Bhimber AJK",
-        icon: tesla,
+        icon: read,
         iconBg: "#E6DEDD",
         date: "2022-2024",
         points: [
@@ -118,7 +122,7 @@ const education = [{
     {
         title: "Graduation (BS Software Engineering)",
         company_name: "Mirpur University of Science and Technology (MUST), Mirpur AJK",
-        icon: shopify,
+        icon: must,
         iconBg: "#383E56",
         date: "2024-2028",
         points: [

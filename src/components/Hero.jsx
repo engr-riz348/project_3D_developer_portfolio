@@ -15,10 +15,10 @@ const Hero = () => {
           <div className='w-1 sm:h-80 h-40 violet-gradient' />
         </div>
 
-        <div className="w-full max-w-7xl flex flex-row items-center justify-between gap-20">
-          <div className="flex-1">
-            <h1 className={`${styles.heroHeadText} text-white -mt-12`}>
-              Hi, I'm <span className='text-[#915EFF]'>Rizwan Ahmed</span>
+        <div className="w-full max-w-7xl flex flex-row items-center justify-between gap-5">
+          <div className="flex-1 ml-0">
+            <h1 className={`${styles.heroHeadText} text-white -mt-48`}>
+              Hi, I'm <br /><span className='text-[#915EFF]'>Rizwan Ahmed</span>
             </h1>
           </div>
           <img src={profile} alt="Rizwan Ahmed Profile" className="w-[400px] h-[400px] rounded-lg object-contain shadow-2xl ml-auto mr-[-6rem] mt-6 flex-shrink-0" />
