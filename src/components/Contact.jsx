@@ -139,7 +139,7 @@ const Contact = () => {
           className='mt-8 flex gap-4'
         >
           <a href='https://www.linkedin.com/in/rizwan-ahmed-a42b9a295' target='_blank' rel='noopener noreferrer' className='text-[#915EFF] hover:underline'>
-            LinkedIn
+            <img src="https://img.icons8.com/ios-filled/50/000000/linkedin.png" alt='LinkedIn' className='w-10 h-10 object-contain' />
           </a>
           <a href='https://github.com/engr-riz348' target='_blank' rel='noopener noreferrer'>
             <img src={github} alt='GitHub' className='w-10 h-10 object-contain' />
