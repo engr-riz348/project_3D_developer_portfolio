@@ -1,0 +1,17 @@
+{
+    "folders": [
+		{
+			"name": "mynewfoldr",
+			"path": ".."
+		},
+		{
+			"name": "logo",
+			"path": "../../pics/logo"
+		},
+		{
+			"name": "New folder (2)",
+			"path": "../../New folder (2)"
+		}
+	],
+    "settings": {}
+}
