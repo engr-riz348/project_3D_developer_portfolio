@@ -29,9 +29,9 @@ import minhaj from "../assets/company/Minhaj model.jpg";
 import read from "../assets/company/Read.png";
 import must from "../assets/company/must.png";
 
-import cybersecurity from "../assets/tech/cybersecurity.png";
-import wifi_security from "../assets/tech/wifi_security.png";
-import ethical_hacking from "../assets/tech/ethical_hacking.png";
+import cybersecurity from "../assets/tech/cyber security.png";
+import wifi_security from "../assets/tech/Wifi security.png";
+import ethical_hacking from "../assets/tech/ethical hacking.png";
 import wordpress from "../assets/tech/wordpress.png";
 
 export const navLinks = [{
@@ -142,7 +142,7 @@ const certifications = [{
         icon: wifi_security,
         iconBg: "#E6DEDD",
         date: "2025",
-        link: "/certificate/wifi_security.png",
+        link: "/certificate/download (1).png",
         points: [
             "Completed course on WiFi Security fundamentals and best practices.",
         ],
@@ -153,7 +153,7 @@ const certifications = [{
         icon: wordpress,
         iconBg: "#383E56",
         date: "2025",
-        link: "/certificate/wordpress.png",
+        link: "/certificate/wordpress.jpg",
         points: [
             "Learned WordPress development, theme customization, and plugin integration.",
         ],
@@ -164,7 +164,7 @@ const certifications = [{
         icon: cybersecurity,
         iconBg: "#E6DEDD",
         date: "2024",
-        link: "/certificate/professional_freelancing.png",
+        link: "/certificate/B19004414-Cybersecurity Course_page-0001.jpg",
         points: [
             "Completed 3-month online course on Professional Freelancing skills and knowledge required for freelancing.",
         ],
@@ -175,7 +175,7 @@ const certifications = [{
         icon: ethical_hacking,
         iconBg: "#383E56",
         date: "2025",
-        link: "/certificate/ethical_hacking.png",
+        link: "/certificate/B22006717-Certified Ethical Hacking Course_page-0001.jpg",
         points: [
             "Completed 3-month online course on Ethical Hacking skills and knowledge required for cybersecurity freelancing.",
         ],

@@ -17,7 +17,7 @@ const Hero = () => {
 
         <div className="w-full max-w-7xl flex flex-row items-center justify-between gap-5">
           <div className="flex-1 ml-0">
-            <h1 className={`${styles.heroHeadText} text-white -mt-48`}>
+            <h1 className={`${styles.heroHeadText} text-white -mt-96`}>
               Hi, I'm <br /><span className='text-[#915EFF]'>Rizwan Ahmed</span>
             </h1>
           </div>
