@@ -1,4 +1,5 @@
-import { motion } from "framer-motion";
+pdated
+uoimport { motion } from "framer-motion";
 
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
@@ -17,13 +18,12 @@ const Hero = () => {
 
         <div className="w-full max-w-7xl flex flex-row items-center justify-between gap-5">
           <div className="flex-1 ml-0">
-            <h1 className={`${styles.heroHeadText} text-white -mt-96`}>
+            <h1 className={`${styles.heroHeadText} text-white -mt-72`}>
               Hi, I'm <br /><span className='text-[#915EFF]'>Rizwan Ahmed</span>
             </h1>
-          </div>
+      </div>
           <img src={profile} alt="Rizwan Ahmed Profile" className="w-[400px] h-[400px] rounded-lg object-contain shadow-2xl ml-auto mr-[-6rem] mt-6 flex-shrink-0" />
         </div>
-      </div>
 
       <ComputersCanvas />
 
